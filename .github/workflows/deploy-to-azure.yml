@@ -19,6 +19,4 @@ jobs:
           app-name: 'NE-websites'  
           slot-name: 'production'
           publish-profile: ${{ secrets.AzureAppService_PublishProfile }}
-          ftp-username: ${{ secrets.FTPS_USER_NAME }}
-          ftp-password: ${{ secrets.FTPS_PASSWORD }}
-
+    
